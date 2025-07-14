@@ -1,20 +1,19 @@
-<h1 align="center">📸 NeoSnapX</h1>
-<p align="center"><i>A glowing selfie capture experience — styled by Y7X 💗</i></p>
+<div align="center">
+
+# 📸 NeoSnapX
+**Every snap is frame-perfect.**
+
+NeoSnapX is a glowing, AMOLED-inspired selfie app powered by `customtkinter` & `OpenCV`.  
+It brings smart features, minimal UI, and stylish face detection — all in one beautiful snap.
+Branded with 💗 by [Y7X-bit](https://github.com/Y7X-bit)
+
+<img src="assets/1.png" width="650"/>
+
+</div>
 
 ---
 
-## 💎 What is NeoSnapX?
-
-**NeoSnapX** is a real-time selfie app built with `customtkinter` and `OpenCV`, featuring:
-- Face detection
-- Countdown timer
-- Filter effects
-- AMOLED + Glow UI
-- 💗 Y7X-style branding
-
----
-
-## ⚙️ Features
+## 🌟 Features at a Glance
 
 - 📷 Live camera feed (mirrored)
 - 🎨 Filters: None, Gray, Sketch
@@ -28,17 +27,12 @@
 
 ---
 
-## 📸 Preview
+## 🖥️ Installation
 
-<p align="center">
-  <img src="assets/1.png" width="720" alt="NeoSnapX Screenshot">
-</p>
-
----
-
-## 🛠️ Installation
-
-Install the required libraries with:
+> Python 3.9 or later required
 
 ```bash
-pip install opencv-python pillow customtkinter
+git clone https://github.com/Y7X-bit/NeoSnapX.git
+cd NeoSnapX
+pip install -r requirements.txt
+python NeoSnapX.py
